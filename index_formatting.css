@@ -1,65 +1,60 @@
 .row.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
+	margin-right: 0;
+	margin-left: 0;
 }
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.info {	
-  background-image:url('images/info.png');
-  background-position: center top;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+.row.no-gutters > [class^="col-"], .row.no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
 }
 
-.about {	
-  background-image:url('images/about.png');
-  background-position: center top;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-    overflow: hidden;
-
+.info {
+	background-image: url('images/info.png');
+	background-position: center top;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 
-.thesis {	
-  background-image:url('images/thesis.png');
-  background-position: center;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-    overflow: hidden;
-
+.about {
+	background-image: url('images/about.png');
+	background-position: center top;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 
-.projects {	
-  background-image:url('images/projects.png');
-  background-position: center;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-    overflow: hidden;
-
+.thesis {
+	background-image: url('images/thesis.png');
+	background-position: center;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 
-.faq {	
-  background-image:url('images/faq.png');
-  background-position: center;
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-    overflow: hidden;
+.projects {
+	background-image: url('images/projects.png');
+	background-position: center;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
 
+.faq {
+	background-image: url('images/faq.png');
+	background-position: center;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 
 .buttons {
 	position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
