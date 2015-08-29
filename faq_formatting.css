@@ -1,5 +1,5 @@
 body {
-	background-image: url('images/projects_bg.png');
+	background-image: url('images/faq_bg.png');
 	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -10,7 +10,7 @@ body {
 .text {
 	margin-top: -100px;
 	margin-bottom: 100px;
-	margin-left: 180px;
+	margin-left: 120px;
 	margin-right: 120px;
 	text-align: justify;
 	text-justify: inter-word;

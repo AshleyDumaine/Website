@@ -18,38 +18,38 @@
 
 .about {
 	background-image: url('images/about.png');
-	background-position: center top;
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	background-position: center top;
 }
 
 .thesis {
 	background-image: url('images/thesis.png');
-	background-position: center;
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	background-position: center;
 }
 
 .projects {
 	background-image: url('images/projects.png');
-	background-position: center;
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	background-position: center;
 }
 
 .faq {
 	background-image: url('images/faq.png');
-	background-position: center;
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	background-position: center;
 }
 
 .buttons {
