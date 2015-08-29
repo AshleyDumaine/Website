@@ -35,6 +35,12 @@ body {
 	transform: translate(-50%, -70%);
 }
 
+.buttons img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -70%);
+}
+
 .right-logo {
 	position: absolute;
 	right: 20px;
@@ -54,12 +60,4 @@ p {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 23px;
 	color: #FFFFFF;
-}
-
-.buttons {
-	margin-top: 100px;
-	margin-bottom: 100px;
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
