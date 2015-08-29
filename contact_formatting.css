@@ -1,5 +1,5 @@
 body {
-	background-image: url('images/projects_bg.png');
+	background-image: url('images/contact_bg.png');
 	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -8,21 +8,18 @@ body {
 }
 
 .text {
+	margin-top: 10px;
 	margin-bottom: 100px;
-	text-align: justify;
-	text-justify: inter-word;
-}
-
-.para {
-	margin-top: 130px;
-}
-
-p {
-	margin-left: 180px;
+	margin-left: 120px;
 	margin-right: 120px;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 23px;
-	color: #FFFFFF;
+	text-align: justify;
+}
+
+.info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
 }
 
 .left-logo {
@@ -44,4 +41,12 @@ h1 {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 78px;
 	color: #FFFFFF;
+}
+
+p {
+	margin-top: 130px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center
 }

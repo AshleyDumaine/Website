@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Projects</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="" />
-    <style>
+	<head>
+		<title>Projects</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="" />
+		<style>
 			div.left-logo {
 				display: inline-block;
 			}
@@ -15,9 +15,10 @@
 			div.text {
 				display: inline-block;
 			}
-			a {
+			div.git-icon {
 				position: absolute;
 				left: 100px;
+				display: inline-block;
 			}
 		</style>
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
@@ -27,45 +28,68 @@
 	</head>
 	<body>
 		<div class="left-logo">
-			<img src="images/left_logo.png" style="height:100px">
+			<a href="http://localhost/Website/index.html"> <img src="images/left_logo.png" style="height:100px"> </a>
 		</div>
 		<div class="right-logo">
-			<img src="images/right_logo.png">
+			<a href="http://localhost/Website/index.html"> <img src="images/right_logo.png" style="height:80px"> </a>
 		</div>
 		<div class="text">
 			<h1>Projects</h1>
-			<br><br>
+			<br>
+			<br>
+			<div class="para">
 			<p>
-			<b>Automated Cluster Whack-a-mole: Google SWE/SRE internship</b><br>
-			Worked on the Tech Infrastructure team to create a new automated implementation 
-			of a program meant to find poor performing tasks/allocations in a cluster and 
-			transfer those tasks/allocations onto other available machines.<br><br>
+				<b>Automated Cluster Whack-a-mole: Google SWE/SRE internship</b>
+				<br>
+				Worked on the Tech Infrastructure team to create a new automated implementation
+				of a program meant to find poor performing tasks/allocations in a cluster and
+				transfer those tasks/allocations onto other available machines.
+				<br>
+				<br>
 
-			
-			<a href="https://github.com/AshleyDumaine/Emotiv-JSON-API">
-				<img src="images/github.png" style="height:50px">
-			</a>
-			<b>Emotiv-JSON API: Part of my thesis</b><br>
-			Created a Java program to transmit Emotiv EEG data in JSON format over a socket 
-			connection to more easily control programs and devices with the Emotiv EPOC/EPOC+.<br><br>
+			</p>
+			</div>
+			<div class="git-icon">
+				<a href="https://github.com/AshleyDumaine/Emotiv-JSON-API"> <img src="images/github.png" style="height:50px"> </a>
+			</div>
+			<p>
+				<b>Emotiv-JSON API: Part of my thesis</b>
+				<br>
+				Created a Java program to transmit Emotiv EEG data in JSON format over a socket
+				connection to more easily control programs and devices with the Emotiv EPOC/EPOC+.
+				<br>
+				<br>
 
-			<a href="https://github.com/AshleyDumaine/MindControlledUAV">
-				<img src="images/github.png" style="height:50px">
-			</a>
-			<b>Mind-Controlled UAV: Part of my thesis</b><br>
-			Used my Emotiv-JSON API to create a program that uses EPOC/EPOC+ EEG data to control 
-			an A.R. Parrot Drone 2.0.<br><br>
+			</p>
+			<div class="git-icon">
+				<a href="https://github.com/AshleyDumaine/MindControlledUAV"> <img src="images/github.png" style="height:50px"> </a>
+			</div>
+			<p>
+				<b>Mind-Controlled UAV: Part of my thesis</b>
+				<br>
+				Used my Emotiv-JSON API to create a program that uses EPOC/EPOC+ EEG data to control
+				an A.R. Parrot Drone 2.0.
+				<br>
+				<br>
 
-			<a href="https://github.com/AshleyDumaine/EmoJArduino">
-				<img src="images/github.png" style="height:50px">
-			</a>
-			<b>EmoJArduino</b><br>
-			Created a program that allows an Arduino to be controlled using the Emotiv-JSON API 
-			and an EPOC/EPOC+.<br><br>
+			</p>
 
-			<b>Arduino Laser Harp: Honors conversion</b><br>
-			Used photoresistors, lasers, and the Java MIDI API to create a working laser harp where 
-			each beam when broken would play a different note.
+			<div class="git-icon">
+				<a href="https://github.com/AshleyDumaine/EmoJArduino"> <img src="images/github.png" style="height:50px"> </a>
+			</div>
+			<p>
+				<b>EmoJArduino</b>
+				<br>
+				Created a program that allows an Arduino to be controlled using the Emotiv-JSON API
+				and an EPOC/EPOC+.
+				<br>
+				<br>
+				<b>Arduino Laser Harp: Honors conversion</b>
+				<br>
+				Used photoresistors, lasers, and the Java MIDI API to create a working laser harp where
+				each beam when broken would play a different note.
+				<br>
+				<br>
 			</p>
 		</div>
 	</body>
