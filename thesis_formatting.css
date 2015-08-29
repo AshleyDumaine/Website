@@ -41,6 +41,10 @@ body {
 	transform: translate(-50%, -70%);
 }
 
+.buttons {
+	margin-bottom: 130px;
+}
+
 .right-logo {
 	position: absolute;
 	right: 20px;
