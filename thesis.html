@@ -17,12 +17,40 @@
 				display: inline-block;
 			}
 		</style>
+		<!-- animsition.css -->
+		<link rel="stylesheet" href="dist/css/animsition.min.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- animsition.js -->
+		<script src="dist/js/jquery.animsition.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".animsition").animsition({
+					inClass : 'fade-in-up',
+					outClass : 'fade-out-up',
+					inDuration : 1500,
+					outDuration : 800,
+					linkElement : '.animsition-link',
+					// e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+					loading : true,
+					loadingParentElement : 'body', //animsition wrapper element
+					loadingClass : 'animsition-loading',
+					unSupportCss : ['animation-duration', '-webkit-animation-duration', '-o-animation-duration'],
+					//"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+					//The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+					overlay : false,
+					overlayClass : 'animsition-overlay-slide',
+					overlayParentElement : 'body'
+				});
+			});
+		</script>
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<link rel="stylesheet" href="thesis_formatting.css">
 	</head>
 	<body>
+		<div class="animsition">
 		<div class="left-logo">
 			<a href="http://localhost/Website/index.html"> <img src="images/left_logo.png" style="height:100px"> </a>
 		</div>
@@ -81,6 +109,7 @@
 				<a href="https://github.com/AshleyDumaine/Emotiv-JSON-API">
 					<img src="images/API_component.png" style="padding: 10px"/>
 				</a>	
+		</div>
 		</div>
 	</body>
 </html>

@@ -20,76 +20,101 @@
 				height: 100%;
 			}
 		</style>
+		<!-- animsition.css -->
+		<link rel="stylesheet" href="dist/css/animsition.min.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- animsition.js -->
+		<script src="dist/js/jquery.animsition.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".animsition").animsition({
+					inClass : 'fade-in-up',
+					outClass : 'fade-out-left',
+					inDuration : 1500,
+					outDuration : 800,
+					linkElement : '.animsition-link',
+					// e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+					loading : true,
+					loadingParentElement : 'body', //animsition wrapper element
+					loadingClass : 'animsition-loading',
+					unSupportCss : ['animation-duration', '-webkit-animation-duration', '-o-animation-duration'],
+					//"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+					//The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+					overlay : false,
+					overlayClass : 'animsition-overlay-slide',
+					overlayParentElement : 'body'
+				});
+			});
+		</script>
+
 		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 		<link rel="stylesheet" href="index_formatting.css">
 	</head>
 	<body>
-		<div class="row no-gutters">
-			<div class="col-md-6">
-				<div class="about">
-					<a href="http://localhost/Website/about.html"> </a>
+		<div class="animsition">
+			<div class="row no-gutters">
+				<div class="col-md-6">
+					<div class="about">
+						<a href="http://localhost/Website/about.html" class="animsition-link"> <img src="images/about.png"> </a>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="info">
-					<div class="buttons">
-						<div class="button1">
-							<a href="http://localhost/Website/contact.html">
-								<img src="images/contact.png" >
-							</a>
-						</div>
-						<div class="button2">
-							<a href="https://drive.google.com/file/d/0B9dEGlz9p93MenM4R2l2RG80eXc/view?usp=sharing">
-								<img src="images/resume.png" >
-							</a>
-						</div>
-						<br>
-						<br>
-						<div class="links">
-							<p> </p>
-						</div>
-						<div class="links">
-							<p> </p>
-						</div>
-						<div class="links">
-							<a href="https://www.linkedin.com/in/ashleydumaine"> <img src="images/linkedin.png" > </a>
-						</div>
-						<div class="links">
-							<a href="https://plus.google.com/118050919091154168967/about"> <img src="images/googleplus.png" > </a>
-						</div>
-						<div class="links">
-							<a href="https://github.com/AshleyDumaine"> <img src="images/github.png" > </a>
-						</div>
-						<div class="links">
-							<a href="http://uncaffeinatedcoder.blogspot.com/"> <img src="images/blogger.png" > </a>
-						</div>
-						<div class="links">
-							<a href="https://twitter.com/ashleydumaine"> <img src="images/twitter.png" > </a>
+				<div class="col-md-6">
+					<div class="info">
+						<div class="buttons">
+							<div class="button1">
+								<a href="http://localhost/Website/contact.html" class="animsition-link"> <img src="images/contact.png" > </a>
+							</div>
+							<div class="button2">
+								<a href="https://drive.google.com/file/d/0B9dEGlz9p93MenM4R2l2RG80eXc/view?usp=sharing" class="animsition-link"> <img src="images/resume.png" > </a>
+							</div>
+							<br>
+							<br>
+							<div class="links">
+								<p></p>
+							</div>
+							<div class="links">
+								<p></p>
+							</div>
+							<div class="links">
+								<a href="https://www.linkedin.com/in/ashleydumaine" class="animsition-link"> <img src="images/linkedin.png" > </a>
+							</div>
+							<div class="links">
+								<a href="https://plus.google.com/118050919091154168967/about" class="animsition-link"> <img src="images/googleplus.png" > </a>
+							</div>
+							<div class="links">
+								<a href="https://github.com/AshleyDumaine" class="animsition-link"> <img src="images/github.png" > </a>
+							</div>
+							<div class="links">
+								<a href="http://uncaffeinatedcoder.blogspot.com/" class="animsition-link"> <img src="images/blogger.png" > </a>
+							</div>
+							<div class="links">
+								<a href="https://twitter.com/ashleydumaine" class="animsition-link"> <img src="images/twitter.png" > </a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="row no-gutters">
-			<div class="col-md-4">
-				<div class="thesis">
-					<a href="http://localhost/Website/thesis.html"> </a>
+			<div class="row no-gutters">
+				<div class="col-md-4">
+					<div class="thesis">
+						<a href="http://localhost/Website/thesis.html" class="animsition-link"> </a>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="projects">
-					<a href="http://localhost/Website/projects.html"> </a>
+				<div class="col-md-4">
+					<div class="projects">
+						<a href="http://localhost/Website/projects.html" class="animsition-link"> </a>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="faq">
-					<a href="http://localhost/Website/faq.html"> </a>
+				<div class="col-md-4">
+					<div class="faq">
+						<a href="http://localhost/Website/faq.html" class="animsition-link"> </a>
+					</div>
 				</div>
 			</div>
 		</div>
-
 	</body>
 </html>
