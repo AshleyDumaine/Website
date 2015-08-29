@@ -1,5 +1,5 @@
 body {
-	background-image: url('images/thesis_bg.png');
+	background: #000000 url('images/thesis_bg.png');
 	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -8,10 +8,17 @@ body {
 }
 
 .text {
-	margin-top: 10px;
+	margin-top: 100px;
 	margin-bottom: 100px;
-	margin-left: 120px;
-	margin-right: 120px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.title {
+		margin-top: 130px;
+}
+
+.summary {
 	text-align: justify;
 	text-justify: inter-word;
 }
@@ -44,13 +51,14 @@ h1 {
 }
 
 p {
-	margin-top: 130px;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 23px;
 	color: #FFFFFF;
 }
 
 .buttons {
+	margin-top: 100px;
+	margin-bottom: 100px;
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, -50%);
