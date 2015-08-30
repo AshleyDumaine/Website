@@ -13,11 +13,11 @@ body {
 
 .info {
 	background-image: url('images/info.png');
-	background-position: right top;
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
+	background-position: right top;
 }
 
 .about {
