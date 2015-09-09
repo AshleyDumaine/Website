@@ -1,8 +1,17 @@
+@media (max-width: 699px) and (min-width: 520px) {
+  @viewport {
+    width: 640px;
+  }
+}
+
 body {
 	background: #000000 url('images/thesis_bg.png');
 	max-width: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	background-attachment: fixed;
 	background-position: center top;
 }
@@ -15,7 +24,7 @@ body {
 }
 
 .title {
-		margin-top: 130px;
+	margin-top: 130px;
 }
 
 .summary {
@@ -27,6 +36,8 @@ body {
 	position: absolute;
 	margin-left: 20px;
 	margin-top: 20px;
+	-webkit-filter: drop-shadow(0px 2px 2px #222);
+  	filter: drop-shadow(0px 2px 2px #222);
 }
 
 .top-button {
@@ -39,6 +50,9 @@ body {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, -70%);
+	-webkit-transform: translate(-50%, -50%);
+	-webkit-filter: drop-shadow(0px 2px 2px #222);
+  	filter: drop-shadow(0px 2px 2px #222);
 }
 
 .buttons {
@@ -50,6 +64,8 @@ body {
 	right: 20px;
 	margin-top: 20px;
 	height: 150px;
+-webkit-filter: drop-shadow(0px 2px 2px #222);
+  filter: drop-shadow(0px 2px 2px #222);
 }
 
 h1 {
@@ -58,10 +74,24 @@ h1 {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 78px;
 	color: #FFFFFF;
+text-shadow:  0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 15px 15px rgba(0,0,0,.15);
 }
 
 p {
 	font-family: 'Quicksand', sans-serif;
 	font-size: 23px;
 	color: #FFFFFF;
+text-shadow:   0 3px 1px rgba(0,0,0,.1),
+               0 0 3px rgba(0,0,0,.1),
+               0 1px 2px rgba(0,0,0,.3),
+               0 2px 3px rgba(0,0,0,.2),
+               0 3px 5px rgba(0,0,0,.25),
+               0 5px 5px rgba(0,0,0,.2),
+               0 7px 7px rgba(0,0,0,.15);
 }
