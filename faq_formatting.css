@@ -4,15 +4,7 @@
   }
 
 body {
-	background: #000000 url('images/faq_bg.png');
-	max-width: 100%;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-	background-attachment: fixed;
-	background-position: 50% 30%;
+	background: #000000;
 }
 
 .text {

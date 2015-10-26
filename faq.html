@@ -7,6 +7,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=0.5"/>
 		<meta name="description" content="" />
 		<style>
+
+		img.bg {
+			/* Set rules to fill background */
+			min-height: 100%;
+			min-width: 1024px;
+			
+			/* Set up proportionate scaling */
+			width: 100%;
+			height: auto;
+			
+			/* Set up positioning */
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+		
+		@media screen and (max-width: 1024px){
+			img.bg {
+				width: auto;
+				margin-left: -512px; }
+		}
+		
 			div.left-logo {
 				display: inline-block;
 			}
@@ -51,6 +73,7 @@
 		<link rel="shortcut icon" href="http://www.favicon-generator.org/favicon-generator/htdocs/favicons/2014-11-26/30407b45ee70897cd4de8d1e2f883f73.ico">
 	</head>
 	<body>
+	<img src="images/faq_bg.png" class="bg">
 		<div class="animsition">
 			<div class="left-logo">
 				<a href="http://www.engr.uconn.edu/~amd11037/index.html"> <img src="images/left_logo.png" style="height:100px"> </a>
@@ -123,6 +146,17 @@
 					UConn and Kentucky on my laptop from the comfort of my own dorm room... and then I got
 					to watch the ensuing chaos from one of the study lounges as literally thousands of people
 					came pouring out of Gampel screaming and more came running from their dorms.
+					<br>
+					<br>
+
+					<b>Q8: Why is your thesis 3 semesters long?</b>
+                                        <br>
+					A8: I'm a University Scholar, which means I'm working on a massive thesis as an undergrad (compared to the 1-semester long
+					thesis that a regular Honors Scholar would do). There are only 28 of us for my graduating class. We're all 
+					working on <a href="http://universityscholars.uconn.edu/meet-university-scholars/">some interesting projects</a>, 
+					which would never fit into a single semester.
+					<br>
+					<br>
 				</p>
 			</div>
 		</div>
