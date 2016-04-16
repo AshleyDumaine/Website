@@ -20,6 +20,16 @@ img.bg {
 	}
 }
 
+.links {
+	position: relative;
+	overflow:visible;
+}
+
+.all-links {
+	text-align: center;
+	margin-bottom: 130px;
+}
+
 div.left-logo {
 	display: inline-block;
 }
@@ -72,17 +82,13 @@ body {
 	transform: translate(-50%, -70%);
 }
 
-.buttons img {
+.all-links img {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, -70%);
 	-webkit-transform: translate(-50%, -50%);
 	-webkit-filter: drop-shadow(0px 2px 2px #222);
 	filter: drop-shadow(0px 2px 2px #222);
-}
-
-.buttons {
-	margin-bottom: 130px;
 }
 
 .right-logo {
@@ -142,6 +148,21 @@ text-shadow:  0 6px 1px rgba(0,0,0,.1),
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 15px 15px rgba(0,0,0,.15);
+overflow: hidden;
+    white-space: nowrap;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 42px;
+	color: #FFFFFF;
+text-shadow:  0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 2px 5px rgba(0,0,0,.2),
+               0 3px 10px rgba(0,0,0,.25),
+               0 5px 10px rgba(0,0,0,.2),
+               0 7px 15px rgba(0,0,0,.15);
 overflow: hidden;
     white-space: nowrap;
 }
