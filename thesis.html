@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Ashley Dumaine | Thesis</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.5"/>
+		<meta name="description" content="" />
+		<!-- animsition.css -->
+		<link rel="stylesheet" href="dist/css/animsition.min.css">
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- animsition.js -->
+		<script src="dist/js/jquery.animsition.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".animsition").animsition({
+					inClass : 'fade-in',
+					outClass : 'fade-out',
+					inDuration : 1000,
+					outDuration : 500,
+					linkElement : '.animsition-link',
+					// e.g. linkElement: 'a:not([target="_blank"]):not([href^=#])'
+					loading : true,
+					loadingParentElement : 'body', //animsition wrapper element
+					loadingClass : 'animsition-loading',
+					unSupportCss : ['animation-duration', '-webkit-animation-duration', '-o-animation-duration'],
+					//"unSupportCss" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+					//The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+					overlay : false,
+					overlayClass : 'animsition-overlay-slide',
+					overlayParentElement : 'body'
+				});
+			});
+		</script>
+		<noscript>
+    			<style type="text/css">
+        			.pagecontainer {display:none;}
+   			</style>
+    			<div class="noscriptmsg">
+    				<h2>Whoops!</h2>
+				<p1>You don't seem to have JavaScript enabled. Please enable it to see my site and all its nice jQuery transitions.</p1>
+    			</div>
+		</noscript>
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link rel="stylesheet" href="thesis_formatting.css">
+		<link rel="shortcut icon" href="http://www.favicon-generator.org/favicon-generator/htdocs/favicons/2014-11-26/30407b45ee70897cd4de8d1e2f883f73.ico">
+	</head>
+	<body>
+		<div class="pagecontainer">
+		<img src="images/thesis_bg.png" class="bg">
+		<div class="animsition">
+		<div class="left-logo">
+			<a href="http://www.engr.uconn.edu/~amd11037/index.html"> <img src="images/left_logo.png" style="height:100px"> </a>
+		</div>
+		<div class="right-logo">
+			<a href="http://www.engr.uconn.edu/~amd11037/index.html"> <img src="images/right_logo.png" style="height:80px"> </a>
+		</div>
+		<div class="text">
+			<h1>Thesis</h1>
+			<br>
+			<br>
+			<div class="title">
+			<p>
+				<b>Thesis Title</b>
+				<br>
+				"A General Protocol and Application Programming Interface for
+				Wireless Electroencephalographic Communication Systems"
+				<br>
+				<br>
+			</p>
+			</div>
+			<div class="summary">
+			<p>
+				<b>Summary</b>
+				<br>
+				Electroencephalographs (EEGs) are input devices available as commercial wireless headsets
+				that are capable of picking up signals associated with facial expressions, emotions or even
+				focused thoughts. These could be used by physically impaired people (e.g., paraplegics or
+				victims of ALS) to control prostheses or wheelchairs, restore mobility, and increase
+				independence. Yet, high-level and reusable protocols to program and control these EEGs are
+				seriously lacking and impeding the development of sophisticated modular control applications.
+				The objective of this project is to fill this void and demonstrate the flexibility of such
+				protocols and APIs through a mind-controlled UAV project.
+				<br>
+			</p>
+			</div>
+		</div>
+		<div class="buttons">
+				<a target="_blank" href="https://docs.google.com/document/d/1TnFL982OkyV8JVWAo9lONIhBm9KCVeAjSphPGC1Wnhk/edit?usp=sharing">
+					<img src="images/uscholar_proposal.png" style="padding: 10px"/>
+				</a>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>	
+				<a target="_blank" href="https://github.com/AshleyDumaine/MindControlledUAV">
+					<img src="images/UAV_component.png" style="padding: 10px"/>
+				</a>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<a target="_blank" href="https://github.com/AshleyDumaine/Emotiv-JSON-API">
+					<img src="images/API_component.png" style="padding: 10px"/>
+				</a>	
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<a target="_blank" href="https://drive.google.com/file/d/0B9dEGlz9p93MckhVU2Jza3JQRTg/view?usp=sharing">
+					<img src="images/machine_learning.png" style="padding: 10px"/>
+				</a>
+		</div>
+		</div>
+		</div>
+	</body>
+</html>
